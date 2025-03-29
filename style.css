@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--tg-theme-bg-color, #ffffff);
+    color: var(--tg-theme-text-color, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background-color: var(--tg-theme-button-color, #2aabee);
+    color: var(--tg-theme-button-text-color, #ffffff);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
